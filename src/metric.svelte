@@ -79,7 +79,7 @@
      display: flex;
      flex-direction: row;
      padding: 20px;
-    border: 5px solid rgb(243, 245, 246);
+ 
      margin-top:140px;
      margin-left: 40px;
      width: 1400PX;
@@ -88,7 +88,7 @@
    }
   
    .card1{
-     background-color: aqua;
+  
      height: 20px;
      width: 200px;
      margin-left:5px;
@@ -97,7 +97,7 @@
    }
   
    .card2{
-     background-color: aqua;
+
      height: 20px;
      width: 200px;
      margin-left: 50px;
@@ -111,21 +111,21 @@
     
    }
    .card4{
-     background-color: aqua;
+ 
      height: 20px;
      width: 200px;
      margin-left:30px;
     
    }
    .card5{
-     background-color: aqua;
+   
      height: 20px;
    
      width: 200px;
      margin-left: 30px;
     }
    .card6{
-     background-color: aqua;
+    
      height: 20px;
      margin-left: 30px;
     width: 200px;
