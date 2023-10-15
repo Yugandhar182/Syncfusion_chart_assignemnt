@@ -19,11 +19,11 @@
 
 <style>
     .main-container {
-        background-color:rgb(219, 214, 243);
+        background-color:rgba(227, 230, 233, 0.5);
         width: 1500px;
-        height: 1500px;
+        height: 1700px;
         margin-left:10px;
-        margin-top:-79px;
+        margin-top:-175px;
     }
 
     .container2 {
