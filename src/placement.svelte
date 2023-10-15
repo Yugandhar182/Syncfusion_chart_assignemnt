@@ -58,13 +58,26 @@
             primaryXAxis: {
                 valueType: 'Category',
                 majorGridLines: { width: 0 },
+                labelStyle: {
+                    size: '17px',
+                 fontWeight:"normal"
+         
+        
+        },
             },
             primaryYAxis: {
                 edgeLabelPlacement: 'Shift',
                 majorTickLines: { width: 0 },
                 minorTickLines: { width: 0 },
                 lineStyle: { width: 0 },
+                labelPlacement: 'OnTicks',
                 title: 'Placement value',
+                labelStyle: {
+                    size: '17px',
+                 fontWeight:"normal"
+         
+        
+        },
             },
             width: '1390px', // Set the width of the chart
             height: '400px', // Set the height of the chart
@@ -125,6 +138,6 @@
 	    height: 420px;
         margin-left:40px;
         margin-top: 80px;
-        border: 4px solid rgb(234, 234, 245);
+       
     }
 </style>
