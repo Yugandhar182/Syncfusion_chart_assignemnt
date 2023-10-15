@@ -43,15 +43,28 @@
         const chart = new Chart({
             primaryXAxis: {
                 valueType: 'Category',
-                majorGridLines: { width: 0 }
-            },
+                majorGridLines: { width: 0 },
+                labelStyle: {
+                    size: '17px',
+                 fontWeight:"normal"
+         
+           }
+        },
             primaryYAxis: {
                 edgeLabelPlacement: 'Shift',
                 majorTickLines: { width: 0 },
                 minorTickLines: { width: 0 },
                 lineStyle: { width: 0 },
-                title: "Placements"
-            },
+                title: "Placements",
+                labelStyle: {
+                    size: '17px',
+                 fontWeight:"normal"
+         
+        
+                
+              
+            }
+        },
             width: '1390px',
             height: '400px',
             series: [
@@ -85,10 +98,13 @@
                     name: 'splineAxis',
                     opposedPosition: true,
                     title: 'Total time to fill days',
-                    grid: {
-                        visible: true
-                    },
-                }
+                    labelStyle: {
+                    size: '17px',
+                 fontWeight:"normal"
+         
+                    }
+                  
+                },
             ],
             title: 'Time to fill',
             tooltip: {
@@ -128,7 +144,7 @@
 	    height: 420px;
         margin-left:40px;
         margin-top: 80px;
-        border: 4px solid rgb(234, 234, 245);
+       
     }
 
 </style>
