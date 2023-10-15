@@ -51,15 +51,28 @@
         const chart = new Chart({
             primaryXAxis: {
                 valueType: 'Category',
-                majorGridLines: { width: 0 }
+                majorGridLines: { width: 0 },
+                labelStyle: {
+                    size: '17px',
+                 fontWeight:"normal"
+         
+        
+        },
+              
             },
             primaryYAxis: {
                 majorTickLines: { width: 0 },
                 minorTickLines: { width: 0 },
                 lineStyle: { width: 0 },
+                labelStyle: {
+                    size: '17px',
+                 fontWeight:"normal"
+         
+        
+        },
             },
-            width: '1390px',
-            height: "450px",
+            width: '1350px',
+            height: "400px",
             series: [
                 {
                     type: 'Bar',
