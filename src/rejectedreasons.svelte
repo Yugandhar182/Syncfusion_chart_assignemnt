@@ -53,9 +53,9 @@
                 valueType: 'Category',
                 majorGridLines: { width: 0 },
                 labelStyle: {
-                    size: '17px',
-                 fontWeight:"normal"
-         
+                    size: '1rem',
+                 fontWeight:"510",
+                 fontFamily: 'sans-serif',
         
         },
               
@@ -65,14 +65,16 @@
                 minorTickLines: { width: 0 },
                 lineStyle: { width: 0 },
                 labelStyle: {
-                    size: '17px',
-                 fontWeight:"normal"
+                    size: '1rem',
+                 fontWeight:"400",
+                 fontFamily: 'sans-serif'
          
         
         },
             },
             width: '1350px',
-            height: "400px",
+            height: "390px",
+          
             series: [
                 {
                     type: 'Bar',
@@ -105,7 +107,7 @@
 					
                 },
             ],
-            title: 'Rejected Reasons',
+            
         });
 
         chart.appendTo('#container');
@@ -116,6 +118,9 @@
         <div id='container'></div>
 
 
-<style>
-   
-</style>
+        <style>
+            #container {
+                margin-top: 40px; /* Add top margin */
+                margin-bottom: 20px; /* Add bottom margin */
+            }
+        </style>
