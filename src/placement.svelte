@@ -59,7 +59,7 @@
                 valueType: 'Category',
                 majorGridLines: { width: 0 },
                 labelStyle: {
-                    size: '17px',
+                    size: '15px',
                  fontWeight:"normal"
          
         
@@ -73,7 +73,7 @@
                 labelPlacement: 'OnTicks',
                 title: 'Placement value',
                 labelStyle: {
-                    size: '17px',
+                    size: '15px',
                  fontWeight:"normal"
          
         
@@ -113,7 +113,7 @@
                     fill: 'MediumSeaGreen',
                 },
             ],
-            title: 'Placement by user',
+        
             tooltip: {
                 enable: true,
                 format: 'GDP ${point.y}', // Customize tooltip format
@@ -129,15 +129,23 @@
     }
 </script>
 <div class="container1">
+    <h1 class="h1">Placement Value by User</h1>
 <div id='container3'></div>
 </div>
 <style>
        .container1{
         background-color:white;
         width: 1400px;
-	    height: 420px;
+	    height: 430px;
         margin-left:40px;
         margin-top: 80px;
        
     }
+     .h1{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: -1120px;
+    margin-bottom: 20px;
+
+ }
 </style>
