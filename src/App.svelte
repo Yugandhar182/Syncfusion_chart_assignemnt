@@ -3,7 +3,7 @@
     import Metric from "./metric.svelte";
     import Time from './time.svelte';
     import Placement from "./placement.svelte"
-	import Rejected from "./rejectedreasons.svelte";
+    import Rejected from "./rejectedreasons.svelte";
   
 
 </script>
@@ -22,7 +22,7 @@
     .main-container {
         background-color:rgba(227, 230, 233, 0.5);
         width: 1500px;
-        height: 1750px;
+        height: 1790px;
         margin-left:10px;
         margin-top:-175px;
     }
@@ -38,7 +38,7 @@
  .h1{
     font-size: 17px;
     font-weight: bold;
-    margin-left: -1220px;
+    margin-left: 10px;
 
  }
   
