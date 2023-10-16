@@ -79,7 +79,7 @@
      display: flex;
      flex-direction: row;
      padding: 20px;
- 
+
      margin-top:170px;
      margin-left: 40px;
      width: 1400PX;
@@ -88,7 +88,7 @@
    }
   
    .card1{
-  
+   
      height: 20px;
      width: 200px;
      margin-left:5px;
@@ -97,7 +97,7 @@
    }
   
    .card2{
-
+   
      height: 20px;
      width: 200px;
      margin-left: 50px;
@@ -111,21 +111,21 @@
     
    }
    .card4{
- 
+   
      height: 20px;
      width: 200px;
      margin-left:30px;
     
    }
    .card5{
-   
+    
      height: 20px;
    
      width: 200px;
      margin-left: 30px;
     }
    .card6{
-    
+   
      height: 20px;
      margin-left: 30px;
     width: 200px;
