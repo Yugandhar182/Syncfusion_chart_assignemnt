@@ -13,6 +13,7 @@
     <Time/>
     <Placement/>
     <div class="container2">
+        <h1 class="h1">Reject Reasons</h1>
        <Rejected/>
     </div>
 </div>
@@ -21,19 +22,24 @@
     .main-container {
         background-color:rgba(227, 230, 233, 0.5);
         width: 1500px;
-        height: 1700px;
+        height: 1750px;
         margin-left:10px;
         margin-top:-175px;
     }
 
     .container2 {
         width: 1400px;
-        height: 420px;
+        height: 440px;
    
-        margin-top: 70px;
+        margin-top: 120px;
         margin-left:40px;
         background-color: white;
     }
- 
+ .h1{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: -1220px;
+
+ }
   
 </style>
