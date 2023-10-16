@@ -66,7 +66,7 @@
             }
         },
             width: '1390px',
-            height: '400px',
+            height: '390px',
             series: [
                 {
                     type: 'Column',
@@ -75,6 +75,7 @@
                     yName: 'y',
                     fill: 'DodgerBlue',
                     name: 'Placements',
+                    columnWidth: 0.5,
                 },
                 {
                     type: 'Spline',
@@ -112,10 +113,11 @@
                     shared: true,
                     format: ' ${series.name} :${point.y}',
                     fill: 'white', // Change the background color of the tooltip
+                 
                     textStyle: {
                         color: 'black', // Change the text (content) color of the tooltip
                         fontWeight:"bold",
-                    
+                  
                     
                     },
                     border: {
@@ -142,7 +144,7 @@
     .Container1{
         background-color:white;
         width: 1400px;
-	    height: 430px;
+	    height: 450px;
         margin-left:40px;
         margin-top: 80px;
        
@@ -150,8 +152,8 @@
     .h1{
     font-size: 17px;
     font-weight: bold;
-    margin-left: -1220px;
-    margin-bottom: 20px;
+    margin-left: 10px;
+  
 
  }
 
