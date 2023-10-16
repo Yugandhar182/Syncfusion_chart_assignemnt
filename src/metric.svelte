@@ -80,7 +80,7 @@
      flex-direction: row;
      padding: 20px;
 
-     margin-top:170px;
+     margin-top:190px;
      margin-left: 40px;
      width: 1400PX;
      height:150px ;
