@@ -73,7 +73,7 @@
         },
             },
             width: '1350px',
-            height: "390px",
+            height: "380px",
           
             series: [
                 {
@@ -84,6 +84,7 @@
                     yName: 'y',
 					fill:getRandomColor(),
                     columnSpacing: 0.1,
+                  
                     animation: {
                         enable: true,
                         duration: 1000,
