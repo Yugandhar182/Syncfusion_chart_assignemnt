@@ -57,7 +57,7 @@
                 lineStyle: { width: 0 },
                 title: "Placements",
                 labelStyle: {
-                    size: '17px',
+                    size: '15px',
                  fontWeight:"normal"
          
         
@@ -99,14 +99,14 @@
                     opposedPosition: true,
                     title: 'Total time to fill days',
                     labelStyle: {
-                    size: '17px',
+                    size: '15px',
                  fontWeight:"normal"
          
                     }
                   
                 },
             ],
-            title: 'Time to fill',
+           
             tooltip: {
                     enable: true,
                     shared: true,
@@ -135,16 +135,24 @@
 </script>
 
 <div class="Container1">
+    <h1 class="h1">Time to fill</h1>
 <div id="container2"></div>
 </div>
 <style>
     .Container1{
         background-color:white;
         width: 1400px;
-	    height: 420px;
+	    height: 430px;
         margin-left:40px;
         margin-top: 80px;
        
     }
+    .h1{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: -1220px;
+    margin-bottom: 20px;
+
+ }
 
 </style>
